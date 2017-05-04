@@ -67,6 +67,7 @@ var cryptoSquare = function(input){
   output = messageArranger(square, output);
   output = cleanArray(output);
   output = spacePlacer(output);
+  output = output.join("");
   return output;
 };
 
