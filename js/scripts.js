@@ -29,12 +29,25 @@ var determineArray = function(square, input) {
   return output;
 }
 
+//Read individual letters in the opposite direction from when they were originally pushed into a new array
+var messageArranger = function(input, square) {
+  var output = [];
+  for (var i = 0; i < square.cols; i++) {
+    for (var j = 0; j < square.rows; j++) {
+      console.log(output);
+      output.push(input[j][i]);
+    }
+  }
+  return output;
+};
+
 var cryptoSquare = function(input){
   input = cleanText(input);
   var square = determineSquare(input);
   var output = determineArray(square, input);
-  console.log(output);
-  return output;
+  var encrypt = messageArranger(output, square);
+  // console.log(encrypt);
+  return encrypt;
 };
 
 
