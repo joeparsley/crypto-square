@@ -12,12 +12,13 @@
 
 | Behavior| Input Example | Output Example |
 |:-------------:|:-------------:|:-------------:|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Program will take in string and determine the smallest amount of rows and columns to be used | 26 | 6 and 5 |
+| Create an array of arrays "rows" long, which should produce "cols" long quantity of arrays | hello | [[h,e,l], [l,o]] |
+| Read individual letters in the opposite direction from when they were originally pushed into a new array | [[h,e,l], [l,o]] | [h,l,e,o,l] |
+| Place a space in new combined array every fifth spot | [h,l,e,o,l] | [h,l,e,o,l, ] |
+| Convert array back into string | [h,l,e,o,l, ] | "hleol " |
 
+array[0][4]
 
 ## Setup/Installation Requirements
 
