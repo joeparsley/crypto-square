@@ -12,6 +12,7 @@
 
 | Behavior| Input Example | Output Example |
 |:-------------:|:-------------:|:-------------:|
+| Remove all spaces and punctuation from the string, drop it to lower case | "Hello my name is John!" | hellomynameisjohn |
 | Program will take in string and determine the smallest amount of rows and columns to be used | 26 | 6 and 5 |
 | Create an array of arrays "rows" long, which should produce "cols" long quantity of arrays | hello | [[h,e,l], [l,o]] |
 | Read individual letters in the opposite direction from when they were originally pushed into a new array | [[h,e,l], [l,o]] | [h,l,e,o,l] |
